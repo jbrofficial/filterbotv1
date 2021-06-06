@@ -57,7 +57,7 @@ async def start(bot, update):
                         [
                             InlineKeyboardButton
                                 (
-                                    'Developers', url="https://t.me/CrazyBotsz"
+                                    'Developers', url="https://t.me/crazy_rockers"
                                 )
                         ]
                     ]
@@ -76,7 +76,7 @@ async def start(bot, update):
                         [
                             InlineKeyboardButton
                                 (
-                                    'Developers', url="https://t.me/CrazyBotsz"
+                                    'Developers', url="https://t.me/crazy_rockers"
                                 )
                         ]
                     ]
@@ -112,8 +112,8 @@ async def start(bot, update):
 @Client.on_message(filters.command(["help"]) & filters.private, group=1)
 async def help(bot, update):
     buttons = [[
-        InlineKeyboardButton('Home ⚡', callback_data='start'),
-        InlineKeyboardButton('About 🚩', callback_data='about')
+        InlineKeyboardButton('Home 🏠', callback_data='start'),
+        InlineKeyboardButton('About 📂', callback_data='about')
     ],[
         InlineKeyboardButton('Close 🔐', callback_data='close')
     ]]

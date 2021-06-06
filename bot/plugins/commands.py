@@ -30,7 +30,7 @@ async def start(bot, update):
             await bot.send_document(
                 chat_id=update.chat.id,
                 document = file_id,
-                caption = caption,
+                caption = f"{file_name} \n @crazy_rockers",
                 parse_mode="html",
                 reply_to_message_id=update.message_id,
                 reply_markup=InlineKeyboardMarkup(
@@ -38,7 +38,7 @@ async def start(bot, update):
                         [
                             InlineKeyboardButton
                                 (
-                                    'Developers', url="https://t.me/CrazyBotsz"
+                                    '❤️ Our group ❤️', url="https://t.me/crazy_rockers"
                                 )
                         ]
                     ]
@@ -50,7 +50,7 @@ async def start(bot, update):
             await bot.send_video(
                 chat_id=update.chat.id,
                 video = file_id,
-                caption = caption,
+                caption = f"{file_name} \n @crazy_rockers",
                 parse_mode="html",
                 reply_markup=InlineKeyboardMarkup(
                     [
@@ -69,7 +69,7 @@ async def start(bot, update):
             await bot.send_audio(
                 chat_id=update.chat.id,
                 audio = file_id,
-                caption = caption,
+                caption = f"{file_name} \n @crazy_rockers ",
                 parse_mode="html",
                 reply_markup=InlineKeyboardMarkup(
                     [
@@ -89,10 +89,10 @@ async def start(bot, update):
         return
 
     buttons = [[
-        InlineKeyboardButton('Developers', url='https://t.me/CrazyBotsz'),
-        InlineKeyboardButton('Source Code 🧾', url ='https://github.com/AlbertEinsteinTG/Adv-Auto-Filter-Bot-V2')
+        InlineKeyboardButton('Developers', url='https://t.me/crazy_rockers'),
+        InlineKeyboardButton('Source Code 🧾', url ='https://github.com/jbrofficial/filterbotv1')
     ],[
-        InlineKeyboardButton('Support 🛠', url='https://t.me/CrazyBotszGrp')
+        InlineKeyboardButton('Support 🛠', url='https://t.me/cinema_collection_c')
     ],[
         InlineKeyboardButton('Help ⚙', callback_data="help")
     ]]
@@ -133,7 +133,7 @@ async def help(bot, update):
 async def about(bot, update):
     
     buttons = [[
-        InlineKeyboardButton('Home ⚡', callback_data='start'),
+        InlineKeyboardButton('Home 🏠', callback_data='start'),
         InlineKeyboardButton('Close 🔐', callback_data='close')
     ]]
     reply_markup = InlineKeyboardMarkup(buttons)

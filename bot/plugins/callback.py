@@ -142,7 +142,7 @@ async def cb_navg(bot, update: CallbackQuery):
     
     reply_markup = InlineKeyboardMarkup(temp_results)
     
-    text=f"<i>🌹check Link at @crazy_rockers 🌹 Found</i> <code>{leng}</code> <i>Results for your Request 🥳:</i> <code>{query}</code>"
+    text=f"<i>📛check Link at /n @crazy_rockers 📛 Found</i> <code>{leng}</code> <i>Results for your Request 🥳:</i> <code>{query}</code>"
         
     try:
         await update.message.edit(
@@ -205,7 +205,7 @@ async def cb_settings(bot, update: CallbackQuery):
             
             InlineKeyboardButton
                 (
-                    "About", callback_data=f"about({chat_id})"
+                    "About😴", callback_data=f"about({chat_id})"
                 )
         ],
         [
@@ -1659,8 +1659,8 @@ async def callback_data(bot, update: CallbackQuery):
 
     elif query_data == "help":
         buttons = [[
-            InlineKeyboardButton('Home ⚡', callback_data='start'),
-            InlineKeyboardButton('About 🚩', callback_data='about')
+            InlineKeyboardButton('Home 🏠', callback_data='start'),
+            InlineKeyboardButton('About 🤔', callback_data='about')
         ],[
             InlineKeyboardButton('Close 🔐', callback_data='close')
         ]]
@@ -1677,7 +1677,7 @@ async def callback_data(bot, update: CallbackQuery):
 
     elif query_data == "about": 
         buttons = [[
-            InlineKeyboardButton('Home ⚡', callback_data='start'),
+            InlineKeyboardButton('Home 🏠', callback_data='start'),
             InlineKeyboardButton('Close 🔐', callback_data='close')
         ]]
         

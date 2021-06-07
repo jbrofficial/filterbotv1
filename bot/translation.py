@@ -47,7 +47,7 @@ For More Details Click Help Button Below..
 @jbrofficial 😻
 """
     
-    ABOUT_TEXT = """<b>➥ Name</b> : <code> Auto Filter Bot</code>
+    ABOUT_TEXT = """<b>➥ Name</b> : <code> Auto Filter </code>
     
 <b>➥ Creator</b> : <b><i><a href="https://t.me/jbrofficial">JBR__CREATION</a></i></b>
 

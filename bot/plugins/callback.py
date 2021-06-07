@@ -142,7 +142,7 @@ async def cb_navg(bot, update: CallbackQuery):
     
     reply_markup = InlineKeyboardMarkup(temp_results)
     
-    text=f"<i>📛check Link at /n @crazy_rockers 📛 Found</i> <code>{leng}</code> <i>Results for your Request 🥳:</i> <code>{query}</code>"
+    text=f"<i>📛 check Link at </i>\n @crazy_rockers 📛 Found</i> <code>{leng}</code> <i>Results for your Request 🥳:</i> <code>{query}</code>"
         
     try:
         await update.message.edit(
@@ -1601,14 +1601,14 @@ async def cb_about(bot, update: CallbackQuery):
     text=f"<i><u>Bot's Status</u></i>\n"
     text+=f"\n<b><i>Bot's Uptime:</i></b> <code>{time_formatter(time.time() - start_uptime)}</code>\n"
     text+=f"\n<b><i>Bot Funtion:</i></b> <i>Auto Filter Files</i>\n"
-    text+=f"""\n<b><i>Bot Support:</i></b> <a href="https://t.me/CrazyBotszGrp">@CrazyBotszGrp</a>\n"""
-    text+="""\n<b><i>Source Code:</i></b> <a href="https://github.com/AlbertEinsteinTG/Adv-Filter-Bot-V2">Source</a>"""
+    text+=f"""\n<b><i>Bot Support:</i></b> <a href="https://t.me/crazy_rockers">@crazy_rockers</a>\n"""
+    text+="""\n<b><i>Source Code:</i></b> <a href="https://github.com/jbrofficial/filterbotv1">Source</a>"""
 
     buttons = [
         [
             InlineKeyboardButton
                 (
-                    "My Dev ⚡", url="https://t.me/AlbertEinstein_TG"
+                    "My Dev ⚡", url="https://t.me/jbrofficial"
                 ),
                 
             InlineKeyboardButton

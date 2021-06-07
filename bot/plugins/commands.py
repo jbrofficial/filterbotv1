@@ -90,9 +90,9 @@ async def start(bot, update):
 
     buttons = [[
         InlineKeyboardButton('Developers', url='https://t.me/crazy_rockers'),
-        InlineKeyboardButton('Source Code 🧾', url ='https://github.com/jbrofficial/filterbotv1')
+        InlineKeyboardButton('Instagram❤️', url ='https://Instagram.com/jbr__creation')
     ],[
-        InlineKeyboardButton('Support 🛠', url='https://t.me/cinema_collection_c')
+        InlineKeyboardButton('YouTube 🛠', url='https://youtube.com/channel/UC-43NwS9v4S32l4tS9GxYWg')
     ],[
         InlineKeyboardButton('Help ⚙', callback_data="help")
     ]]

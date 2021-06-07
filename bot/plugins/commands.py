@@ -38,7 +38,7 @@ async def start(bot, update):
                         [
                             InlineKeyboardButton
                                 (
-                                    '❤️ Our group ❤️', url="https://t.me/crazy_rockers"
+                                    '🎖️ Our channel 🎖️ ', url="https://t.me/crazy_rockers"
                                 )
                         ]
                     ]
@@ -113,7 +113,7 @@ async def start(bot, update):
 async def help(bot, update):
     buttons = [[
         InlineKeyboardButton('Home 🏠', callback_data='start'),
-        InlineKeyboardButton('About 📂', callback_data='about')
+        InlineKeyboardButton('About 🤔', callback_data='about')
     ],[
         InlineKeyboardButton('Close 🔐', callback_data='close')
     ]]

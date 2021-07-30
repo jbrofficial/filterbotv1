@@ -135,7 +135,7 @@ async def auto_filter(bot, update):
             )
         #https://telegra.ph/file/f3ea3421859204e383b03.jpg
     else:
-        Send_message=await bot.sendPhoto(
+        Send_message=await bot.send_video(
                 chat_id = update.chat.id,
                 video="https://telegra.ph/file/1470ad1db04627c505540.mp4",
                 caption=f"Couldn't Find This Movie.Please Try Again..\n Check your spelling from google \n and try again!If spelling is correct, Then that movie is not available<b> \n Request movie name only, no need of movie, language, size etc!! GOOGLE SEARCH 🔍 SPELLING<b><a href='https://www.google.com'>GOOGLE</a></b>. \n\nഈ സിനിമയുടെ ഒറിജിനൽ പേര് ഗൂഗിളിൽ പോയി കണ്ടെത്തി അതുപോലെ ഇവിടെ കൊടുക്കുക 🥺",

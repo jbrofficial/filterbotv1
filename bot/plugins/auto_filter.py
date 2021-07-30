@@ -86,10 +86,10 @@ async def auto_filter(bot, update):
                 file_GB = f"[{str(round((file_size/(1024*1024)),2))} GB]"
                 size = file_GB
                 
-            file_name = size + " - 🎬 " + file_name
+            file_name = size + file_name
             
             print(file_name)
-            #file_size = str(file_size) + " KB" if file_size < 1024 elif file_size < 1024 else str(round(file_size/1024)) + " GiB"  #"📁 " + 
+            #file_size = str(file_size) + " KB" if file_size < 1024 elif file_size < 1024 else str(round(file_size/1024)) + " GB"  #"📁 " + 
             
             if file_type == "video":
                 if allow_video: 
@@ -135,10 +135,10 @@ async def auto_filter(bot, update):
             )
         #https://telegra.ph/file/f3ea3421859204e383b03.jpg
     else:
-        Send_message=await bot.send_video(
+        Send_message=await bot.sendPhotho(
                 chat_id = update.chat.id,
-                video="https://telegra.ph/file/3e9f7db0c98e6b236c2c7.mp4",
-                caption=f"Couldn't Find This Movie.Please Try Again..\n plss write correct spelling .search<b><a href='https://www.google.com'>Channel</a></b>. \n\nഈ സിനിമയുടെ ഒറിജിനൽ പേര് ഗൂഗിളിൽ പോയി കണ്ടെത്തി അതുപോലെ ഇവിടെ കൊടുക്കുക 🥺",
+                video="https://telegra.ph/file/f3ea3421859204e383b03.jpg",
+                caption=f"Couldn't Find This Movie.Please Try Again..\n Check your spelling from google \n and try again!If spelling is correct, Then that movie is not available<b> \n Request movie name only, no need of movie, language, size etc!! GOOGLE SEARCH 🔍 SPELLING<b><a href='https://www.google.com'>GOOGLE</a></b>. \n\nഈ സിനിമയുടെ ഒറിജിനൽ പേര് ഗൂഗിളിൽ പോയി കണ്ടെത്തി അതുപോലെ ഇവിടെ കൊടുക്കുക 🥺",
                 parse_mode="html",
                 reply_to_message_id=update.message_id
             )

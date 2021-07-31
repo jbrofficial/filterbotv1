@@ -91,6 +91,9 @@ async def auto_filter(bot, update):
             print(file_name)
             #file_size = str(file_size) + " KB" if file_size < 1024 elif file_size < 1024 else str(round(file_size/1024)) + " GB"  #"🗂️ " + 
             
+            # add emoji down below inside " " if you want..
+            button_text = f"🗒️{file_size}🗂️{file_name}"
+            
             if file_type == "video":
                 if allow_video: 
                     pass

@@ -86,7 +86,7 @@ async def auto_filter(bot, update):
                 file_GB = f"[{str(round((file_size/(1024*1024)),2))} GB]"
                 size = file_GB
                 
-            file_name = 🗂️file_name + size
+            file_name = file_name + "🗂️ + size
 
          # Just A Decaration
         result[0].append([

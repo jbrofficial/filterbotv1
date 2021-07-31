@@ -90,7 +90,7 @@ async def auto_filter(bot, update):
                    
          # Just A Decaration
         result[0].append([
-            InlineKeyboardButton(f"🗒️{file_size}"
+            InlineKeyboardButton(f"🗒️{file_size}")
         ])
                                         
             print(file_name)

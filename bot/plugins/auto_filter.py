@@ -87,14 +87,14 @@ async def auto_filter(bot, update):
                 size = file_GB
                 
             file_name = size + " 🗂️ " + file_name
-                   
-         # Just A Decaration
-        result[0].append([
-            InlineKeyboardButton(f"🗒️{file_size}")
-        ])
-                                        
+                                                           
             print(file_name)
             #file_size = str(file_size) + " KB" if file_size < 1024 elif file_size < 1024 else str(round(file_size/1024)) + " GB"  #"🗂️ " + 
+
+           #Just A Decaration
+          result[0].append([
+          InlineKeyboardButton(f"{file_size}")
+        ])
                         
             #add emoji down below inside " " if you want..
             button_text = f"🗂️{file_name}"

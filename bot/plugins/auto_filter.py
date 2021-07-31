@@ -87,8 +87,12 @@ async def auto_filter(bot, update):
                 size = file_GB
                 
             file_name = file_name + " 🗂️ " + size
-            file_name = size
-                         
+
+         # Just A Decaration
+        result[0].append([
+            InlineKeyboardButton(f"🗒️{file_size}"
+        ])
+                                        
             print(file_name)
             #file_size = str(file_size) + " KB" if file_size < 1024 elif file_size < 1024 else str(round(file_size/1024)) + " GB"  #"🗂️ " + 
                         

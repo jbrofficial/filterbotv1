@@ -89,14 +89,12 @@ async def start(bot, update):
         return
 
     buttons = [[
-        InlineKeyboardButton('Developers', url='https://t.me/crazy_rockers'),
-        InlineKeyboardButton('Instagram❤️', url ='https://Instagram.com/jbr__creation')
+        InlineKeyboardButton('MY DEV👨‍🔬', url='https://t.me/JBROFFICIAL'),
+
+        InlineKeyboardButton('𝕀ℕ𝕊𝕋𝔸𝔾ℝ𝔸𝕄❤️', url ='https://Instagram.com/jbr__creation')
     ],[
-        InlineKeyboardButton('YouTube 🛠', url='https://youtube.com/channel/UC-43NwS9v4S32l4tS9GxYWg')
-    ],[
-        InlineKeyboardButton('Help ⚙', callback_data="help")
-    ]]
-    
+        InlineKeyboardButton('🆈🆃🆄🅱🅴 💻', url='https://youtube.com/channel/UC-43NwS9v4S32l4tS9GxYWg')
+    ]]    
     reply_markup = InlineKeyboardMarkup(buttons)
     
     await bot.send_message(

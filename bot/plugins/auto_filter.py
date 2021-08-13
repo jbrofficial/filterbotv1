@@ -142,11 +142,11 @@ async def auto_filter(bot, update):
         Send_message=await bot.send_video(
                 chat_id = update.chat.id,
                 video="https://telegra.ph/file/1470ad1db04627c505540.mp4",
-                caption=f"Couldn't Find This Movie.Please Try Again..\n Check your spelling from google \n and try again!If spelling is correct, Then that movie is not available<b> \n Request movie name only, no need of movie, language, size etc!! GOOGLE SEARCH 🔍 SPELLING<b><a href='https://www.google.com'>GOOGLE</a></b>. \n\nഈ സിനിമയുടെ ഒറിജിനൽ പേര് ഗൂഗിളിൽ പോയി കണ്ടെത്തി അതുപോലെ ഇവിടെ കൊടുക്കുക 🥺",
+                caption=f"Couldn't Find This Movie.Please Try Again</u>..\n Check your spelling from google<b>\n and try again!If spelling is correct</u>, Then that movie is not available <b>\n Request movie name only, no need of movie, language, size etc!! /n  GOOGLE SEARCH 🔍 SPELLING<b><a href='https://www.google.com'>GOOGLE</u></b>. \n\nഈ സിനിമയുടെ ഒറിജിനൽ പേര് ഗൂഗിളിൽ പോയി കണ്ടെത്തി അതുപോലെ ഇവിടെ കൊടുക്കുക 🥺",
                 parse_mode="html",
                 reply_to_message_id=update.message_id
             )
-        await asyncio.sleep(15) # in seconds
+        await asyncio.sleep(10) # in seconds
         await Send_message.delete()
         #await bot.delete_messages(update.chat.id,update.message_id)
         return # return if no files found for that query

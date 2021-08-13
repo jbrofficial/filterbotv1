@@ -5,13 +5,8 @@
 class Translation(object):
     
     START_TEXT = """<b><u>Hey {} How are you!!</b></u>
-<i>Am Just A Advance Auto Filter Bot....😉
-
-Just Add Me To Your Group And Channel And Connect Them And See My Pevers 🔥🔥😝
-Created by @jbrofficial ❤️
-
-For More Details Click Help Button Below..
-@crazy_rockers
+<i>{first}How can I help you..😊 \n made by #JBR❤️ 😜 \n Bₑ ₕₐₚₚY 💞<\b><\u> Enjoy your Life 😈 own way🦋🥳
+MAD BY @JBRofficial<\a>
 </i>"""    
     
     HELP_TEXT = """
@@ -47,15 +42,15 @@ For More Details Click Help Button Below..
 @jbrofficial 😻
 """
     
-    ABOUT_TEXT = """<b>➥ Name</b> : <code> Auto Filter </code>
+    ABOUT_TEXT = """<b>➥ Name</b> : <code>JBRMoviemaster</code>
     
-<b>➥ Creator</b> : <b><i><a href="https://t.me/jbrofficial">JBR__CREATION</a></i></b>
+<b>➥ Creator</b> : <b><i><a href="https://t.me/jbrofficial">JBR__CREATION</b>
 
 <b>➥ Language</b> : <code>Python3</code>
 
 <b>➥ Library</b> : <i><a href="https://docs.pyrogram.org">Pyrogram Asyncio 1.13.0 </a></i>
 
-<b>➥ Source Code</b> : <i><a href="https://github.com/jbrofficial/filterbotv1">Click Me</a></i>
+<b>➥ SCode</b> : <i><a href="https://github.com">ITS PERSONAL 💻 SRYY</a></i>
 
-<b>➥ Subscribe ❤️</b> : <i><a href="https://youtube.com/channel/UC-43NwS9v4S32l4tS9GxYWg">Click Me</a></i>
+<b>➥ Subscribe ❤️</b> : <i><a href="https://youtube.com/channel/UC-43NwS9v4S32l4tS9GxYWg">
 """

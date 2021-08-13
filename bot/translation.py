@@ -7,7 +7,8 @@ class Translation(object):
     START_TEXT = """<b><u>Hey {} How are you!!</b></u>
 <i>{first}How can I help you..😊 \n made by #JBR❤️ 😜 \n Bₑ ₕₐₚₚY 💞<\b><\u> Enjoy your Life 😈 own way🦋🥳
 MAD BY @JBRofficial<\a>
-Any help</i>"""    
+Any help contact me
+</i>"""    
    
     HELP_TEXT = """
 <b><i><u>How To Use Me!?</u></i></b>

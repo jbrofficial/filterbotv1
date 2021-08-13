@@ -8,7 +8,7 @@ class Translation(object):
 <i>How can I help you..😊 \n made by #JBR❤️ 😜 \n Bₑ ₕₐₚₚY 💞</u> Enjoy your Life 😈 own way🦋🥳
 MAD BY @JBRofficial !! 🍒
 
-You can create Your own by Clicking on Deploy Tutorial !!!😎 </b>
+You so cute 😍 kalavu chellia😁ava😜 !!!😎 </b>
 
  
 </i>"""    
